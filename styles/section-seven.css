@@ -1,0 +1,28 @@
+.section-seven{
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    background-repeat: no-repeat;
+    background-image:url('../icons/scientists-collaborating-v3.png');
+    background-size: cover;
+    scale: (0.5);
+    background-position: center;
+}
+.section-seven-width{
+    width: 90%;
+    height: 450px;
+    max-width: 1300px;
+    color: white;
+}
+.ss-head{
+    margin-top:120px;
+    margin-bottom:25px;
+}
+.ss-body{
+    font-size:35px;
+    font-weight:bold;
+    margin-bottom:40px;
+}
+.ss-bottom{
+    font-weight:bold;
+}

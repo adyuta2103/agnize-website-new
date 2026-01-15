@@ -1,0 +1,38 @@
+.section-two {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(44, 47, 59);
+  margin-top: -10px;
+}
+
+.section-two-width {
+  color: white;
+  width: 90%;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.stw-one {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.stw-two {
+  width: 90%;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 60px;
+}
+
+.stw-three {
+  font-size: 21px;
+  padding-bottom: 50px;
+  width: 90%;
+  line-height: 27px;
+  font-weight: bold;
+}
+

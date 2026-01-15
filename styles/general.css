@@ -1,0 +1,162 @@
+body{
+    margin:0;
+    padding-top:100px;
+    font-family:myfont;
+}
+
+button{
+    font-family:myfont;
+}
+
+@font-face{
+    font-family: myfont;
+    src:url('../euclid-circular-a/Euclid\ Circular\ A\ Regular.ttf');
+}
+
+@font-face{
+    font-family:myfont;
+    src:url('../euclid-circular-a/Euclid\ Circular\ A\ Bold.ttf');
+    font-weight:bold;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.contactbutton {
+    background-color: rgb(4, 207, 255);
+    border: none;
+    font-family: myfont;
+    font-weight: bold;
+    border-radius: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 14px 25px;
+}
+
+.about-us-button {
+    background-color: rgb(4, 207, 255);
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border: none;
+    font-family: myfont;
+    font-weight: bold;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 50px;
+    font-size: 15px;
+    transition:
+        color 0.15s,
+        background-color 0.5s;
+    cursor: pointer;
+}
+
+.about-us-button:hover
+{
+    background-color: rgb(44, 47, 59);
+    color: white;
+}
+
+.meet-us {
+    margin-left: 25px;
+    text-decoration: none;
+    transition: all 1s;
+    color: white;
+}
+
+.meet-us:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media (max-width:786px){
+    .agnizelogo {
+        width: 60px;
+    }
+
+    .agnize-title-text {
+        font-size: 16px;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    .contactbutton {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+    .section-one-body-section{
+        width: 100%;
+        max-width: 700px;
+    }
+    .section-three-width{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 15px;
+    }
+    .stbs-container-width{
+        width: 80%;
+    }
+    .sf-bottom-section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .news-card{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .agnize-logo-footer{
+        width: 90px;
+        margin-right: 40px;
+    }
+    .se-right-section{
+        width: 120px;
+    }
+    .news-card-image{
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media (min-width:787px) {
+    .agnizelogo {
+        width: 80px;
+    }
+
+    .agnize-title-text {
+        font-size: 21px;
+    }
+
+    .header-right {
+
+    }
+
+    .contactbutton {
+        font-size: 16px;
+        padding: 14px 25px;
+    }
+    .section-one-body-section{
+        width: 700px;
+    }
+    .section-three-width{
+        display: flex;
+    }
+    .news-card{
+        width: 33%;
+        margin-bottom: 100px;
+    }
+    .news-card-height{
+        height: 500px;
+    }
+    .agnize-logo-footer{
+        width: 110px;
+        margin-right: 100px;
+    }
+    .news-card-image {
+        width: 100%;
+    }
+
+}

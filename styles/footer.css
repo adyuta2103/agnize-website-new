@@ -1,0 +1,74 @@
+.footer{
+    background-color:rgb(44, 47, 59);
+    display:flex;
+    width:100%;
+    height:270px;
+    justify-content:center;
+}
+.footer-width{
+    width:90%;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    max-width:1300px;
+}
+.se-left-section{
+    display:flex;
+    align-items:center;
+}
+.footer-bold{
+    font-weight:bold;
+    margin-bottom:40px;
+}
+.agnize-logo-footer{
+    cursor: pointer;
+}
+.se-right-section{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.footer-facebook{
+    border:solid;
+    border-radius:100px;
+    border-color:rgb(28, 179, 225);
+    border-width:3px;
+    padding:10px;
+    width:30px;
+}
+.footer-instagram{
+    width:30px;
+    border:solid;
+    border-radius:100px;
+    border-color:rgb(28, 179, 225);
+    border-width:3px;
+    padding:10px;
+}
+.footer-twitter{
+    width:30px;
+    border:solid;
+    border-radius:100px;
+    border-color:rgb(28, 179, 225);
+    border-width:3px;
+    padding:10px;
+}
+.footer-linked-in{
+    width:30px;
+    border:solid;
+    border-radius:100px;
+    border-color:rgb(28, 179, 225);
+    border-width:3px;
+    padding:10px;
+}
+.follow-us{
+    text-align:right;
+    margin-bottom:20px;
+    font-weight:bold;
+    width:100%;
+}
+.footer-social-icons div{
+    display: inline-block;
+    cursor: pointer;
+    
+}

@@ -1,0 +1,21 @@
+.section-six{
+    display:flex;
+    justify-content:center;
+    padding-bottom:70px;
+}
+.section-six-width{
+    width:90%;
+    margin-top:80px;
+    text-align: center;
+}
+.section-six-heading{
+    font-size:30px;
+    font-weight:bold;
+    margin-bottom:40px;
+}
+.section-six-body{
+    font-size:18px;
+    text-align:center;
+    line-height:25px;
+    margin-bottom:30px;
+}

@@ -1,0 +1,31 @@
+.section-four{
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 40px;
+}
+
+.section-four-width{
+  width: 90%;
+  text-align: center;
+  background-image: url('../icons/section-three-background-image.webp');
+  background-color:rgb(44, 47, 59);
+  background-blend-mode: multiply;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position-y:-155px;
+  filter: opacity(1);  
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.awards {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.awards-text {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 40px;
+}
